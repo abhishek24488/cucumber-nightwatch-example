@@ -1,0 +1,31 @@
+{
+  "src_folders": [
+	"tests/"
+  ],
+  "output_folder": "tests/reports",
+  "custom_commands_path": "",
+  "custom_assertions_path": "",
+  "page_objects_path": "",
+  "globals_path": "",
+  "selenium": {
+	"start_process": true,
+	"server_path": "/usr/local/bin/selenium-server-standalone.jar",
+	"cli_args": {
+	  "webdriver.chrome.driver": "/usr/local/bin/chromedriver"
+	}
+  },
+  "test_settings": {
+	"default": {
+	  "silent": true,
+	  "screenshots": {
+		"enabled": false,
+		"path": ""
+	  },
+	  "desiredCapabilities": {
+		"browserName": "chrome",
+		"javascriptEnabled": true,
+		"acceptSslCerts": true
+	  }
+	}
+  }
+}

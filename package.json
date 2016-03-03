@@ -1,0 +1,18 @@
+{
+  "name": "cucumber-nightwatch-example",
+  "version": "0.0.1",
+  "description": "Example of integrating cucumber with nightwatch, runs tests with cucumber runner and proivdes HTML report",
+  "author": {
+    "name": "kushang gajjar",
+    "email": "g.kushang@gmail.com"
+  },
+  "devDependencies": {
+    "cucumber": "^0.9.5",
+    "cucumber-nightwatch": "git+https://github.com/gkushang/cucumber-nightwatch.git",
+    "cucumber-parallel": "^0.1.9",
+    "grunt": "^0.4.5",
+    "grunt-cucumberjs": "^0.8.8",
+    "load-grunt-config": "^0.19.1",
+    "nightwatch": "^0.8.16"
+  }
+}
